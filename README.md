@@ -1,2 +1,2 @@
-# somatosensory
-scripts for processing high-spatial resolution fMRI data as developed by author Dr. Joerg Pfannmoeller
+These Matlab scripts have been written for use on a linux machine with Freesurfer 7.1 or higher installed. The first step of the data analysis is the segmentation of brain anatomy with the Freesurfer recon-all command. After that you need to generate a directory structure as outlined in the scripts. The scripts can then be used to execute the data analysis. It is advisable to check the quality of the registration using the script having B_ as prefix. Details of the data analysis are outlined in:
+J. Pfannmoeller, S. Strauss, I. Langner, T. Usichenko and M. Lotze (2019) Investigations on maladaptive plasticity in the sensorimotor cortex of unilateral upper limb CRPS I patients, Restorative Neurology and Neuroscience 37, pages 143–153.
